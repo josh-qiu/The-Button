@@ -267,5 +267,5 @@ client.on('message', message => {
 
 });
 
-client.login('NzIwNzkwMjc0NTI3MzMwNDY0.XuUn-g.iPuVHWGsEboJi304Cuk2Pqts53U');
+client.login(process.env.BOT_TOKEN);
 //thursDAY JUNE 25
