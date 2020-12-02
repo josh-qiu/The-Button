@@ -99,9 +99,6 @@ client.on('ready', () => {
         .catch(console.error);
 
     //roles = cache
-    
-
-    
 
     server.roles.fetch()
         .then(roles => hasValue(roles.cache, "Red"));
@@ -140,9 +137,6 @@ client.on('ready', () => {
                         counter++;
                     }
                 }
-
-                
-
             }
         }
 
@@ -206,64 +200,6 @@ client.on('message', message => {
     }
     
 
-
-
-    if (message.content === 'ping') {
-
-        //ROLE TESTING
-       message.guild.roles.fetch()
-            .then(roles => message.channel.send(`First ID: ${roles.cache.findKey(role => role.name === "Random Role 1")}`))
-            .catch(console.error);
-        message.guild.roles.fetch('724140479335104562')
-            .then(role => message.channel.send(`Role position: ${role.position}`))
-            .catch(console.error);
-
-        //addding roles
-        //- get ID of the role
-        // Use ID in role cache to find the role
-
-        //create a green and a yellow role if they don't already exist
-
-
-
-        //EMBED TESTING
-
-
-          00
-        //const embed = new Discord.MessageEmbed()
-        //    .setTitle('Penis')
-        //    .setColor([14, 213, 240])
-        //    .setAuthor(client.user.username, client.user.displayAvatarURL())
-        //    .setDescription('Description Here')
-        //    .setFooter('Footer Here')
-        //    .addField('Name', 'Content')
-        //    .setImage("https://i.postimg.cc/6QLjhzbZ/1200px-058-Growlithe.png");
-
-        //message.channel.send(embed);
-        //PICTURE TESTING
-        //message.channel.send("This is my profile: ", { files: ["./images/Button.png"] });
-
-        //TIMER TESTING
-        //message.channel.send("Seconds remaining" + (40 - Math.floor(delta / 1000)));
-        //message.channel.send("UTC time: " + new Date().toUTCString());
-    }
-
-    //BASIC BUTTON COMMANDS
-    //switch (message.content) {
-    //    case ">press":
-    //        start = Date.now();
-    //        message.channel.send("The Button has been pressed!");
-    //        break;
-    //    case ">check":
-    //        message.channel.send("**Green**");
-    //        break;
-    //    //CHANGE PROFILE PICTURE TEST 
-    //    case ">change":
-    //        client.user.setAvatar('./images/Button.png')
-    //            .then(user => console.log(`New avatar set!`))
-    //            .catch(console.error);
-
-    //}
 
 });
 
