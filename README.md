@@ -4,7 +4,7 @@
 
 <img src="https://i.ibb.co/VH608yb/Screen-Shot-2020-12-01-at-12-45-59-PM.png" height ="200">
 
-Through this system and the two months the button was active, ideologies surrounding the button began to develop and clash. Non-pressers, high and low rankers, and those that wanted the button to live or die. Whatever one's belief was, the button dominated the life of everyone who participated.
+Through this system, ideologies surrounding the button began to develop and clash. Non-pressers, high and low rankers, and those that wanted the button to live or die. Whatever one's belief was, the button dominated the life of everyone who participated.
 
 This discord bot was made to bring the button to local discord servers and friend groups. Modifiable rules allow this bot to be implemented in any sized server, and simple commands can be used to statistically record the progress of the game. 
 - >rank @username: Check what rank someone is
@@ -13,7 +13,7 @@ This discord bot was made to bring the button to local discord servers and frien
 
 <img src="https://i.ibb.co/LkxTcRj/Screen-Shot-2020-12-01-at-12-44-12-PM.png" height="450">
 
-A fun redesign of the button and its colors give life and meaning to its existing, no doubt inevitable creating even more polarized ideologies and cults.
+A fun redesign of the button and its colors give life and meaning to its existence, no doubt inevitably creating even more polarized ideologies and cults.
 
 <img src="https://i.ibb.co/3y8s0PS/Screen-Shot-2020-12-01-at-12-16-22-PM.png" height="450">
 
